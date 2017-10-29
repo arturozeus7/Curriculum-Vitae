@@ -1,0 +1,59 @@
+.navbar {
+	background: #003399;
+	color:#fff;
+}
+
+body{
+	padding-top:50px;
+}
+
+.profile-title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 36px;
+  letter-spacing: -2px;
+  margin-bottom: 8px;
+  color: #021533;
+ }
+
+.profile-subtitle {
+  text-align: center;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.datos-generales{
+	background: #e0e0eb
+}
+
+.carac{
+	background: #e0e0eb		
+}
+
+.fyd{
+	background: #e0e0eb			
+}
+
+.resferencias-academicas{
+	background: #e0e0eb				
+}
+
+.leido{
+	background: #ffff66
+}
+
+.herra{
+	background: #ff5050
+}
+
+.estados{
+	background: #009933
+}
+
+.logro{
+	background: #e0e0eb	
+}
+
