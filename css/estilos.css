@@ -3,8 +3,22 @@
 	color:#fff;
 }
 
+.navbar-nav > li > a,.navbar-brand{
+  color: #fff!important;
+  background: #003399;
+}
+.navbar-nav > li > a:hover,{
+  background: steelblue;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background: #fff;
+  color: #fff;
+}
+
 body{
 	padding-top:50px;
+  overflow-x: hidden;
+	color:#fff
 }
 
 .profile-title {
@@ -25,35 +39,188 @@ body{
   margin-bottom: 20px;
 }
 
-.datos-generales{
-	background: #e0e0eb
+#datos-generales{
+	background: #e46116;
+  padding: 10% 0 10% 0;
 }
 
-.carac{
-	background: #e0e0eb		
-}
 
-.fyd{
-	background: #e0e0eb			
-}
-
-.resferencias-academicas{
-	background: #e0e0eb				
-}
-
-.leido{
-	background: #ffff66
-}
-
-.herra{
-	background: #ff5050
-}
-
-.estados{
-	background: #009933
+.referencias-academicas{
+	background: #8518be;
+  padding: 7% 0 2% 0;
 }
 
 .logro{
-	background: #e0e0eb	
+	/*background: url('fondo.jpg')!important;*/
+  /*background-size: cover!important;*/
+  /*background-attachment: fixed !important;*/
+  /*background-position:center center !important ;*/
+  padding: 0 0 7em 0;
+	/*background-image: url('image/lo.jpg')!important;
+	background-size: cover!important;*/
+  /*position: relative;*/
+	background: rgb(177, 24, 134);
+	/*background: rgba(0,0,100,.5);*/
+	/*background: rgb(193, 26, 96);*/
+	/*background: rgba(0,0,100,.5);*/
+
+}
+/*.logro:before{
+  content: "";
+  background: rgba(0,0,100,.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}*/
+#objetivos{
+	background:#bf771b;
+  padding: 3em 0 7em 0;
 }
 
+.carac{
+	background: #0e83d4;
+  padding: 2% 0 7% 0;
+  /*padding: 3em 0 3em 0;*/
+}
+
+
+.fyd{
+	background: #c41632;
+  padding: 3em 0 7em 0;
+}
+
+.leido{
+	background: #bf771b;
+  padding: 0 0 3em 0;
+}
+
+.herra{
+	background: #16b9a0
+}
+
+.estados{
+	background: #481dc5;
+  padding: 2em 0 2em 0;
+}
+
+
+
+.foto{
+  border: 4px solid #003399;
+  /*width: 80%;*/
+  margin: 2em auto 1em auto;
+}
+
+.ima2{
+	width: 20%;
+	height: auto;
+}
+
+
+header{
+background-image: url(../image/fondo.jpg)!important;
+  background-size: cover!important;
+  background-attachment: fixed !important;
+  background-position:center center !important ;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  padding-bottom: 2em;
+}
+
+.navi{
+  display: flex;
+  aling-items:center;
+}
+
+.foto1{
+  background: #e46116;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+	padding: 8% 0 8% 0;
+}
+
+.imgs{
+  /*border-radius: 50%;*/
+  width: 40%;
+  align-selt:center;
+}
+
+.fotoper{
+  width: 60%;
+}
+
+.formacion{
+  background:rgb(18, 152, 161);
+	padding: 1em 0 4em 0;
+}
+.formacion img{
+  width: 150px;
+  height: 150px;
+}
+.formacion h1{
+  font-size: 2em;
+  color: rgb(18, 152, 161);
+
+}
+.formacion h2{
+  font-size: 1.5em;
+  color: rgb(18, 152, 161);
+}
+
+.formacion h3{
+  font-size: 1.5em;
+  color: rgb(18, 152, 161);
+}
+
+.formacion .col-md-6{
+  background: white;
+  border:2px solid rgb(18, 152, 161);
+  box-sizing:border-box;
+  transform:scale(1);
+  transition: all .2s;
+}
+.asr{
+  /*line-height: 3;*/
+  color: white!important;
+	padding: 2% 0% 2% 0;
+}
+
+
+.formacion .col-md-6:hover{
+  transform:scale(1.01);
+  transition: all .3s;
+	/*padding: 7% 0 7% 0;*/
+}
+
+.otros-idiomas{
+  background: #b99017;
+  padding: 3em 0 3em 0;
+}
+
+.ciu{
+	width: 60%;
+	/*height: 15px;*/
+}
+
+.time{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.opinion{
+	background: rgb(124, 21, 126)
+}
+
+.fo{
+	background: rgb(0, 0, 0);
+	padding: 1% 0 1% 0;
+	text-align: center;
+}
+
+.libro{
+	width: 50%;
+}
